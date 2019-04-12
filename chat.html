@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat_Firebase</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <center>
+        <img src="imagen/Firebase.png" width="25%">
+
+
+
+        <br />
+        <h1 style="color: blueviolet">Chat creado con Firebase</h1>
+
+
+        <button type="submit" class="btn btn-danger" name="btnclose" id="btnclose">Cerrar Sesion</button>
+        <br />
+        <br />
+
+        <form action="">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" value="" required>
+
+            </div>
+            <br />
+            <div>
+                <label for="nombre"></label>
+                <textarea rows="10" cols="30" name="mensaje" id="mensaje" required placeholder="Escribe tu mensaje en tiempo real utilizando firebase"></textarea>
+
+
+            </div>
+
+            <button type="submit" name="btnenviar" id="btnenviar" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+        <br>
+        <ul id="chat_firebase">
+
+        </ul>
+
+    </center>
+
+
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
