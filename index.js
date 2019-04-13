@@ -5,6 +5,7 @@
 
 
 
+//hola
  /// metodo para cerrar sesion
 
  let close = document.getElementById('btnclose');
